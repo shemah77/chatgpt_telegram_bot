@@ -18,6 +18,7 @@ services:
     build:
       context: "."
       dockerfile: Dockerfile
+      platform: linux/amd64
     depends_on:
       - mongo
 
